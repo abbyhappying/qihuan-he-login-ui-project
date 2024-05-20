@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Qihuan's Login UI Project</title>
+        <link rel="stylesheet" href="login-styles.css">
+        <script src="https://kit.fontawesome.com/badf3f1a87.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-box">
+                <h1 id="title">Sign In</h1>
+                <form>
+                    <div class="input-group">
+                        <div class="form-inputs" id="nameField">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="form-inputs">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" placeholder="E-mail">
+                        </div>
+                        <div class="form-inputs">
+                            <i class="fa-solid fa-lock" id="pass"></i>
+                            <input type="password" placeholder="Password">
+                            <div class="icons">
+                                <i class="fa-regular fa-eye"></i>
+                            </div>
+                        </div>
+                        <p>Forgot Password <a href="#">Click Link</a></p>
+                        <div class="btn-field">
+                            <button type="button" id="signupBtn">Sign up</button>
+                            <button type="button" class="disable" id="loginBtn">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

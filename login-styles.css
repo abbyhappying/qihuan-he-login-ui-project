@@ -1,0 +1,119 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+} */
+
+.container {
+    width: 100%;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(50, 155, 176, 0.7),rgba(0,0,0,0.7)),url("background.jpg");
+    background-size:cover;
+    background-position:center ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* position: relative; */
+}
+.form-box {
+    background: white;
+    border-radius: 8px;
+    padding: 50px 60px 70px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    width:30%;
+    min-width:450px;
+    height:auto;
+    text-align:center;
+    box-shadow: 10px 10px lightblue;
+    /* position:absolute; */
+}
+
+.form-box h1{
+    font-size:30px;
+    margin-bottom:60px;
+    color:black;
+
+}
+.form-box h1::after {
+    content:"";
+    width:30px;
+    height:4px;
+    border-radius:1px;
+    background: #3c3c3c;
+    position:absolute;
+    bottom:-12px;
+    left:50%;
+}
+
+.form-inputs {
+    background:#eaeaea;
+    margin:15px 10px;
+    border-radius:3px;
+    display:flex;
+    align-items:center;
+    position:relative;
+    max-height:65px;
+    transition:max-height 0.5;
+    overflow:hidden;
+}
+
+input {
+    width:100%;
+    background: transparent;
+    border:0;
+    outline:0;
+    padding:10px 15px;
+}
+
+.form-inputs i {
+    margin-left:15px;
+    color:#999;
+}
+
+form p {
+    text-align:left;
+    font-size:13px;
+}
+
+form p a {
+    text-decoration: none;
+    color:#3c00a0;
+}
+
+.btn-field {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: -70px;
+}
+
+.btn-field button {
+    flex-basis:45%;
+    background: #3c00a0;
+    color:#fff;
+    height:40px;
+    border-radius:20px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    transition: background 1s;
+}
+
+.input-group {
+    height:230px;
+}
+
+.form-inputs .icons {
+    position:absolute;
+}
+
+.form-inputs .icons  i{
+    position:relative;
+    margin-left:380px;
+    color:#999;
+}
+button.disable {
+    background:#eaeaea;
+    color:#555;
+}
