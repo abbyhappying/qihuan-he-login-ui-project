@@ -8,13 +8,13 @@
 .container {
     width: 100%;
     min-height:100vh;
-    background-image: linear-gradient(rgba(50, 155, 176, 0.7),rgba(0,0,0,0.7)),url("background.jpg");
+    background-image: linear-gradient(rgba(50, 155, 176, 0.7),rgba(0,0,0,0.7)),url("banner.png");
     background-size:cover;
     background-position:center ;
     display:flex;
     justify-content:center;
     align-items:center;
-    /* position: relative; */
+
 }
 .form-box {
     background: white;
@@ -26,7 +26,7 @@
     height:auto;
     text-align:center;
     box-shadow: 10px 10px lightblue;
-    /* position:absolute; */
+
 }
 
 .form-box h1{
@@ -97,7 +97,7 @@ form p a {
     border:0;
     outline:0;
     cursor:pointer;
-    transition: background 1s;
+    transition:background 1s;
 }
 
 .input-group {
